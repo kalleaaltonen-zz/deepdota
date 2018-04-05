@@ -1,0 +1,156 @@
+alpha = 0.01
+starting training
+Epoch = 1, train accuracy = 58.36%, test accuracy = 58.27%, cost = 0.7125795, wm=0.6137
+Epoch = 11, train accuracy = 58.75%, test accuracy = 58.42%, cost = 0.6711444, wm=0.6125
+Epoch = 21, train accuracy = 59.17%, test accuracy = 58.83%, cost = 0.6701518, wm=0.6281
+Epoch = 31, train accuracy = 59.44%, test accuracy = 59.00%, cost = 0.6696666, wm=0.6116
+Epoch = 41, train accuracy = 59.55%, test accuracy = 59.17%, cost = 0.6694522, wm=0.6082
+Epoch = 51, train accuracy = 59.59%, test accuracy = 59.16%, cost = 0.6693746, wm=0.6073
+Epoch = 61, train accuracy = 59.61%, test accuracy = 59.25%, cost = 0.6693343, wm=0.6065
+Epoch = 71, train accuracy = 59.64%, test accuracy = 59.19%, cost = 0.6693178, wm=0.6065
+Epoch = 81, train accuracy = 59.65%, test accuracy = 59.18%, cost = 0.6692947, wm=0.6071
+Epoch = 91, train accuracy = 59.66%, test accuracy = 59.15%, cost = 0.6692700, wm=0.6068
+Epoch = 101, train accuracy = 59.67%, test accuracy = 59.20%, cost = 0.6692599, wm=0.6060
+Model saved in file: ./model/model.ckpt
+
+
+alpha = 0.02
+starting training
+Epoch = 1, train accuracy = 58.61%, test accuracy = 58.34%, cost = 0.6996103, wm=0.6287
+Epoch = 11, train accuracy = 58.92%, test accuracy = 58.61%, cost = 0.6708889, wm=0.6247
+Epoch = 21, train accuracy = 59.23%, test accuracy = 58.81%, cost = 0.6703786, wm=0.6124
+Epoch = 31, train accuracy = 59.32%, test accuracy = 59.02%, cost = 0.6702115, wm=0.6112
+Epoch = 41, train accuracy = 59.34%, test accuracy = 59.03%, cost = 0.6701664, wm=0.6108
+Epoch = 51, train accuracy = 59.35%, test accuracy = 59.07%, cost = 0.6701547, wm=0.6117
+Epoch = 61, train accuracy = 59.36%, test accuracy = 59.01%, cost = 0.6701462, wm=0.6113
+Epoch = 71, train accuracy = 59.35%, test accuracy = 58.94%, cost = 0.6701233, wm=0.6113
+Epoch = 81, train accuracy = 59.36%, test accuracy = 58.99%, cost = 0.6701185, wm=0.6117
+
+alpha = 0.005
+starting training
+Epoch = 1, train accuracy = 57.81%, test accuracy = 57.56%, cost = 0.7179735, wm=0.6060
+Epoch = 11, train accuracy = 58.69%, test accuracy = 58.66%, cost = 0.6733807, wm=0.5861
+Epoch = 21, train accuracy = 58.85%, test accuracy = 58.79%, cost = 0.6708874, wm=0.5929
+Epoch = 31, train accuracy = 59.15%, test accuracy = 59.22%, cost = 0.6700575, wm=0.6100
+Epoch = 41, train accuracy = 59.41%, test accuracy = 59.25%, cost = 0.6694911, wm=0.6054
+Epoch = 51, train accuracy = 59.53%, test accuracy = 59.33%, cost = 0.6692214, wm=0.6032
+Epoch = 61, train accuracy = 59.61%, test accuracy = 59.41%, cost = 0.6690323, wm=0.6006
+Epoch = 71, train accuracy = 59.67%, test accuracy = 59.54%, cost = 0.6688890, wm=0.6009
+Epoch = 81, train accuracy = 59.70%, test accuracy = 59.57%, cost = 0.6688281, wm=0.5999
+Epoch = 91, train accuracy = 59.73%, test accuracy = 59.61%, cost = 0.6687894, wm=0.5997
+Epoch = 101, train accuracy = 59.74%, test accuracy = 59.60%, cost = 0.6687573, wm=0.5990
+Epoch = 111, train accuracy = 59.75%, test accuracy = 59.61%, cost = 0.6687417, wm=0.5986
+Epoch = 121, train accuracy = 59.75%, test accuracy = 59.64%, cost = 0.6687267, wm=0.5995
+Epoch = 131, train accuracy = 59.76%, test accuracy = 59.66%, cost = 0.6687098, wm=0.5986
+Epoch = 141, train accuracy = 59.76%, test accuracy = 59.60%, cost = 0.6686985, wm=0.5984
+Epoch = 151, train accuracy = 59.77%, test accuracy = 59.64%, cost = 0.6686817, wm=0.5989
+Epoch = 161, train accuracy = 59.77%, test accuracy = 59.67%, cost = 0.6686543, wm=0.5989
+Epoch = 171, train accuracy = 59.78%, test accuracy = 59.63%, cost = 0.6686287, wm=0.5982
+Epoch = 181, train accuracy = 59.79%, test accuracy = 59.58%, cost = 0.6686182, wm=0.5983
+Epoch = 191, train accuracy = 59.81%, test accuracy = 59.61%, cost = 0.6686070, wm=0.5982
+Epoch = 201, train accuracy = 59.81%, test accuracy = 59.57%, cost = 0.6686002, wm=0.5981
+Epoch = 211, train accuracy = 59.81%, test accuracy = 59.59%, cost = 0.6685954, wm=0.5981
+Epoch = 221, train accuracy = 59.81%, test accuracy = 59.66%, cost = 0.6685908, wm=0.5988
+Epoch = 231, train accuracy = 59.81%, test accuracy = 59.67%, cost = 0.6685878, wm=0.5987
+Epoch = 241, train accuracy = 59.81%, test accuracy = 59.64%, cost = 0.6685859, wm=0.5987
+Epoch = 251, train accuracy = 59.81%, test accuracy = 59.62%, cost = 0.6685821, wm=0.5983
+Epoch = 261, train accuracy = 59.81%, test accuracy = 59.60%, cost = 0.6685813, wm=0.5987
+Epoch = 271, train accuracy = 59.82%, test accuracy = 59.58%, cost = 0.6685797, wm=0.5987
+Epoch = 281, train accuracy = 59.81%, test accuracy = 59.57%, cost = 0.6685777, wm=0.5978
+Epoch = 291, train accuracy = 59.81%, test accuracy = 59.60%, cost = 0.6685769, wm=0.5983
+Epoch = 301, train accuracy = 59.81%, test accuracy = 59.57%, cost = 0.6685745, wm=0.5982
+Epoch = 311, train accuracy = 59.81%, test accuracy = 59.55%, cost = 0.6685728, wm=0.5981
+Epoch = 321, train accuracy = 59.81%, test accuracy = 59.55%, cost = 0.6685703, wm=0.5986
+Epoch = 331, train accuracy = 59.82%, test accuracy = 59.51%, cost = 0.6685688, wm=0.5985
+Epoch = 341, train accuracy = 59.82%, test accuracy = 59.55%, cost = 0.6685673, wm=0.5983
+Epoch = 351, train accuracy = 59.82%, test accuracy = 59.56%, cost = 0.6685664, wm=0.5982
+Epoch = 361, train accuracy = 59.82%, test accuracy = 59.52%, cost = 0.6685649, wm=0.5984
+Epoch = 371, train accuracy = 59.82%, test accuracy = 59.55%, cost = 0.6685626, wm=0.5983
+Epoch = 381, train accuracy = 59.82%, test accuracy = 59.53%, cost = 0.6685616, wm=0.5974
+Epoch = 391, train accuracy = 59.82%, test accuracy = 59.56%, cost = 0.6685605, wm=0.5975
+Epoch = 401, train accuracy = 59.81%, test accuracy = 59.58%, cost = 0.6685589, wm=0.5973
+Model saved in file: ./model/model.ckpt
+
+minibatch_size = 128*1024, beta = 0.0005 => beta = 0.00005, alpha=0.5
+starting training
+Epoch = 1, train accuracy = 53.52%, test accuracy = 53.51%, cost = 0.6944436, wm=0.9453
+Epoch = 11, train accuracy = 58.67%, test accuracy = 58.57%, cost = 0.6725813, wm=0.5965
+Epoch = 21, train accuracy = 58.70%, test accuracy = 58.55%, cost = 0.6718734, wm=0.5919
+Epoch = 31, train accuracy = 58.76%, test accuracy = 58.62%, cost = 0.6711666, wm=0.5807
+Epoch = 41, train accuracy = 58.93%, test accuracy = 58.82%, cost = 0.6700789, wm=0.6096
+Epoch = 51, train accuracy = 59.11%, test accuracy = 58.84%, cost = 0.6688261, wm=0.5567
+Epoch = 61, train accuracy = 59.37%, test accuracy = 59.17%, cost = 0.6675665, wm=0.5522
+Epoch = 71, train accuracy = 59.56%, test accuracy = 59.31%, cost = 0.6664796, wm=0.5449
+Epoch = 81, train accuracy = 59.73%, test accuracy = 59.46%, cost = 0.6654901, wm=0.5459
+Epoch = 91, train accuracy = 59.90%, test accuracy = 59.48%, cost = 0.6646092, wm=0.5482
+Epoch = 101, train accuracy = 60.04%, test accuracy = 59.56%, cost = 0.6639341, wm=0.5561
+Epoch = 111, train accuracy = 60.11%, test accuracy = 59.75%, cost = 0.6629938, wm=0.6264
+Epoch = 121, train accuracy = 60.18%, test accuracy = 59.78%, cost = 0.6627314, wm=0.6308
+Epoch = 131, train accuracy = 60.26%, test accuracy = 59.80%, cost = 0.6625575, wm=0.6209
+Epoch = 141, train accuracy = 60.32%, test accuracy = 59.91%, cost = 0.6626125, wm=0.5934
+Epoch = 151, train accuracy = 60.01%, test accuracy = 59.57%, cost = 0.6621942, wm=0.6854
+Epoch = 161, train accuracy = 60.12%, test accuracy = 59.71%, cost = 0.6618932, wm=0.6740
+Epoch = 171, train accuracy = 60.19%, test accuracy = 59.80%, cost = 0.6617713, wm=0.6657
+
+# hyper parameters
+alpha = 0.005
+beta = 0.00005
+minibatch_size = 1024
+
+num_epocs=21
+{'accuracy': 0.5974283,
+ 'accuracy_baseline': 0.527174,
+ 'auc': 0.6307618,
+ 'auc_precision_recall': 0.64177936,
+ 'average_loss': 0.66453063,
+ 'global_step': 106578,
+ 'label/mean': 0.527174,
+ 'loss': 84.87721,
+ 'prediction/mean': 0.53163743}
+
+
+ 18.2 before:
+
+ {'accuracy': 0.6063602,
+ 'accuracy_baseline': 0.5257299,
+ 'auc': 0.64722997,
+ 'auc_precision_recall': 0.6579672,
+ 'average_loss': 0.6574028,
+ 'global_step': 792616,
+ 'label/mean': 0.5257299,
+ 'loss': 84.10772,
+ 'prediction/mean': 0.52287173}
+
+// This one seemed to have overfit quite badly
+ {'accuracy': 0.6014413,
+ 'accuracy_baseline': 0.52760625,
+ 'auc': 0.636574,
+ 'auc_precision_recall': 0.64640063,
+ 'average_loss': 0.66660225,
+ 'global_step': 21783,
+ 'label/mean': 0.52760625,
+ 'loss': 85.32152,
+ 'prediction/mean': 0.52418387}
+
+ // This one is 201 epochs with 10% dropout
+
+ {'accuracy': 0.59916925,
+ 'accuracy_baseline': 0.5257733,
+ 'auc': 0.6411628,
+ 'auc_precision_recall': 0.6538262,
+ 'average_loss': 0.6650287,
+ 'global_step': 21783,
+ 'label/mean': 0.5257733,
+ 'loss': 85.12012,
+ 'prediction/mean': 0.49865767}
+
+// This is after training it for extra 600 epochs
+ {'accuracy': 0.60144824,
+ 'accuracy_baseline': 0.5257733,
+ 'auc': 0.6416371,
+ 'auc_precision_recall': 0.65400827,
+ 'average_loss': 0.66464263,
+ 'global_step': 66931,
+ 'label/mean': 0.5257733,
+ 'loss': 85.0707,
+ 'prediction/mean': 0.5075478}

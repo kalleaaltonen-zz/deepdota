@@ -1,0 +1,42 @@
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113775489-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-113775489-1');
+  </script>
+  <title>Deepdota.net - Pick better Dota 2 teams</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ramda/0.25.0/ramda.min.js"></script>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Cinzel|Sorts+Mill+Goudy" rel="stylesheet">
+  <script src="static/app.js"/></script>
+  <link href="static/style.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-inverse bg-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">deepdota.net</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="{{'active' if request.path == '/' else ''}}"><a href="/">home</a></li>
+        <li class="{{'active' if request.path == '/about' else ''}}"><a href="/about">about</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div id="outer">
+  {% block body %}{% endblock %}
+  </div>
+  <footer>
+    <div class="footer navbar navbar-bottom">
+      Dota 2 is registered trademark of Valve Corporation
+    </div>
+  </footer>
+
+</body>

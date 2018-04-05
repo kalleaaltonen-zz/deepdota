@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+      <p class="small_text">
+         Deepdota is a calculator for estimating winning chances for different team compositions.
+         It also suggest hero picks based on partial teams.
+      </p>
+      <p class="small_text">
+         One motivation for making this application was to help newer players better understand what heroes have synergy (work well together), and which heroes they are vulnerable to and strong against (counter each other).
+      </p>
+      <p class="small_text">
+        It uses a deep neural network trained from matches crawled from Valve's API.
+        It has accuracy of about 59%. Dota is largely a game skill, which plays a huge component in addition to the team composition.
+        Only ranked matches were used in the training.
+      </p>
+      <p class="small_text">
+        Made by <a href="http://www.twitter.com/kalleaaltonen">@kalleaaltonen</a>.
+      </p>
+
+    </div>
+</div>
+{% endblock %}
